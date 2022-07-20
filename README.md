@@ -11,3 +11,11 @@ project directory also allows me to delete the entire DB without impacting other
 
 Another solution would be to use Docker, but I find that Docker adds complexity and slows down development
 enough that I don't want to use it on simpler projects.
+
+## Usage
+
+`db-start`: starts a Postgres database, or fails with a (hopefully) helpful error message.
+
+`db-stop`: stops any running Postgres database.
+
+`db-restart`: stops and then starts a Postgres database.
