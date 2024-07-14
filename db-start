@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 
+# Copyright (c) 2022 Erik Hanson
+# SPDX-License-Identifier: MIT
+#
 # Starts postgres. Assumes that postgres is installed via `asdf` (https://asdf-vm.com).
-
+#
 # The `pgdir` variable below is set to store the postgres data in a `priv/postgres` directory inside
 # the current working directory, so that each project has its own postgres data.
 # Change the variable if that's not where you want to store it.
