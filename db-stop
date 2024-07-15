@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Copyright (c) 2022 Erik Hanson
+# SPDX-License-Identifier: MIT
+#
 # Stops postgres using pg_ctl.
 #
 # Pass '-q' option if you don't want it to complain when it thinks postgres is not running.
